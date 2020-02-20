@@ -1,10 +1,10 @@
 # Specifies the color enchants are shown depending on rarity.
 # Options: black, dark_blue, dark_green, dark_aqua, dark_red, dark_purple, gold, gray, dark_gray, blue, green, aqua, red, light_purple, yellow, and white.
 rarity-colors:
-  common: yellow
-  uncommon: blue
-  rare: gold
-  mythic: light_purple
+  common: dark_green
+  uncommon: white
+  rare: light_purple
+  mythic: dark_red
 enchants:
   # Specifies the location enchants are shown. Options: name, lore
   position: "name"
@@ -12,7 +12,7 @@ enchants:
   roman-numerals: true
 # Toggles forms for /ce command
 forms:
-  enabled: false
+  enabled: true
 # What enchants to disable ENTIRELY
 disabled-enchants: []
 # What enchants to disable in specific worlds
